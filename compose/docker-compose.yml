@@ -1,0 +1,57 @@
+version: '3.9'
+
+services:
+  jenkins:
+    image: jenkins/jenkins:jdk11
+    container_name: compose_jenkins
+    ports:
+      - 8880:8080
+      - 50000:50000
+    volumes:
+      - ../volumes/jenkins:/var/jenkins_home
+    networks:
+      - docker-network    
+
+  ubuntu_slave:
+    #image: ubuntu:18.04
+    build: ../dockerfiles/slave
+    container_name: compose_ubuntu_slave
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - docker-network
+    depends_on: 
+      - jenkins
+  
+  selenium_hub:
+    container_name: compose_selenium_hub
+    ports:
+      - 4444:4444
+    networks:
+      - docker-network
+  
+  selenium_firefox:
+    image: selenium/node-firefox
+    container_name: compose_selenium_firefox
+    environment:
+      - HUB_HOST=compose_selenium_hub
+      - HUB_PORT=4444
+    depends_on: 
+      - selenium_hub
+    networks:
+      - docker-network
+  
+  artifactory:
+    image: docker.bintray.io/jfrog/artifactory-oss:latest
+    container_name: compose_artifactory
+    volumes:
+      - ../volumes/artifactory:/var/opt/jfrog/artifactory
+    ports:
+      - 8081:8081
+      - 8082:8082
+    networks:
+      - docker-network
+      
+networks:
+  docker-network:
+    driver: bridge
