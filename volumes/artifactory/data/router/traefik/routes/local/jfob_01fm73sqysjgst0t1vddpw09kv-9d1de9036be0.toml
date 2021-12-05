@@ -1,0 +1,32 @@
+# This template is used to create routing rules for Traefik
+# References: https://docs.traefik.io/configuration/backends/file/
+#             https://docs.traefik.io/basics/#frontends
+#             https://docs.traefik.io/basics/#backends
+
+[frontends]
+
+
+
+  [frontends.jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0-rule0-internal]
+    entryPoints = ["internal"]
+    backend = "jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0"
+
+    [frontends.jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0-rule0-internal.routes.match]
+      rule = "PathPrefixStrip: /observability/"
+
+
+  [frontends.jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0-rule0-external]
+    entryPoints = ["external"]
+    backend = "jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0"
+
+    [frontends.jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0-rule0-external.routes.match]
+      rule = "PathPrefixStrip: /observability/"
+
+
+
+[backends]
+
+  [backends.jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0]
+    [backends.jfob_01fm73sqysjgst0t1vddpw09kv-9d1de9036be0-0.servers.server1]
+      url = "http://localhost:8036"
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pl.pandait</groupId>
+  <artifactId>panda</artifactId>
+  <version>0.0.1</version>
+  <versioning>
+    <latest>0.0.1</latest>
+    <release>0.0.1</release>
+    <versions>
+      <version>0.0.1</version>
+    </versions>
+    <lastUpdated>20211113165031</lastUpdated>
+  </versioning>
+</metadata>

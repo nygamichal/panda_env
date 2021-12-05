@@ -1,0 +1,76 @@
+2021-12-05T16:12:18.946Z|135a49bcb97e0e3b|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|220|-|86.696|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:12:19.137Z|197992c4b5f24c17|127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|510|-|188.364|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:12:19.166Z|32d9083a00abf575|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|15.346|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:12:19.224Z|1d62388d390531c2|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|17.171|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:12:19.566Z|7ba36a1fe1dfc148|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|37.713|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:12:19.575Z|60e88735cdbd3947|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|41.587|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:12:19.582Z|1469f5800075f44c|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|220|-|54.625|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.436Z|38e596b0e18ffb52|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|426|53|207.754|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.498Z|371771f764220b23|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|7.847|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.535Z|6fbb27a960d20e24|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.944|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.542Z|313c3b003e1d8ecc|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|867|-|53.134|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.556Z|43bd2c445524c8c5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|867|-|7.973|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.647Z|3529b7ae6b4d5457|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|25.703|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.687Z|125af10edf9c2983|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|7.743|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.706Z|1a4018bbe5688e45|127.0.0.1|admin|GET|/api/v1/system/status/nodes|200|645|-|14.025|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.747Z|57650120f43b28ef|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|22|-|4.822|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.802Z|74386d1358ed3b26|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|47.784|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.836Z|1483a0cc91e68801|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|586|-|28.567|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.896Z|3551bfa32b67358d|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|936|-|55.306|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.984Z|28e4e41fd7f503c |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|20.878|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.989Z|1710a7257fb9e198|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|-|-|27.849|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:08.991Z|786e777eca4c28f9|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|29.313|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:09.001Z|45b923168f098135|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|32.689|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:09.039Z|9613f2518270f08 |127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|22.063|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:11.696Z|631e8c1d4ce0423d|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|20.970|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:11.697Z|3587cd55127b7914|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|21.276|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:11.697Z|7db7b648baa5d5d0|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|27.045|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:11.698Z|43457150f5106c5c|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|22.733|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:11.699Z|763f9b2cf9353c07|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|-|-|25.920|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:13.384Z|e84dd1573f86522 |127.0.0.1|admin|GET|/api/v1/ui/admin/repolayouts?jfLoader=true|200|-|-|15.781|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:14.759Z|6acc044178ec9bb9|127.0.0.1|admin|GET|/api/v1/ui/users?jfLoader=true|200|-|-|46.861|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:15.703Z|50dd7135fac09d3 |127.0.0.1|admin|GET|/api/v1/ui/groups?jfLoader=true|200|567|-|34.365|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:16.885Z|1d85dfad97a6a417|127.0.0.1|admin|GET|/api/v1/access/permissions?limit=14&direction=asc|200|-|-|61.757|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:33.587Z|5b503a601c8dc197|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|503|-|64.608|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:33.600Z|343db380efae70a7|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.884|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:42.892Z|46d765d7b699694c|127.0.0.1|admin|GET|/api/v1/ui/proxies|200|2|-|27.913|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:44.506Z|29184692e785ea4d|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|805|-|18.520|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:58.093Z|7f235bc189d4f330|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/initialize|200|154|-|38.495|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:58.246Z|1926b7c824d63fb |127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=0|200|-|-|138.911|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:58.518Z|644481a4e9dd1784|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|503|-|7.228|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:13:58.523Z|50532034afdc0e0d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.743|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:04.992Z|42499e5e7f967a0b|127.0.0.1|admin|GET|/api/v1/system/ismicroserviceenabled/mc|200|5|-|2.606|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:05.012Z|489495e9ca127c7d|127.0.0.1|admin|GET|/api/v1/ui/browsefilesystem?path=%2F|200|984|-|21.496|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:09.270Z|1d4296cff5205dd1|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|11.181|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:10.711Z|7aeaa7506763a8d9|127.0.0.1|admin|GET|/api/v1/ui/generalConfig?jfLoader=true|200|805|-|5.941|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:14.292Z|616487ff6d249d8f|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|805|-|17.916|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:20.028Z|582cf71fed0e6e09|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|20.939|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:20.029Z|5211b802d13f6bd2|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|20.741|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:20.029Z|bb36fa98e760c16 |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|22.838|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:20.030Z|2f1de4d10c40ff45|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|22.378|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:20.031Z|641f82173c053f90|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|-|-|21.019|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:20.289Z|29583d3345ec7827|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|5.490|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.280Z|6d3764685afd6607|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|23.256|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.282Z|658d41c7f35cbbf1|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|55|-|33.594|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.298Z|4e317348cc6e42d9|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|805|-|10.970|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.304Z|35bea2841e93d3dc|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|12.721|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.356Z|5a115062003152f4|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/defaultvalues|200|-|-|68.911|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.560Z|1cc75e8f4332aa84|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|503|-|6.792|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.579Z|7f62b8bb9d48213f|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|1018|-|14.339|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.583Z|c1f5bd6da24b3a8 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.842|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:23.598Z|5df0d4ca9bb9839c|127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|44|-|9.839|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:31.826Z|6b6aa5adbfba9c31|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|15.103|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:47.822Z|13ebc1ddef399c13|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|21.226|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:48.847Z|7690605aebff4087|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|503|-|30.428|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:14:48.854Z|5823d46500133a78|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.071|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:04.808Z|74bcd675aede3252|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|14.846|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:13.806Z|458675363c2bb34a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|503|-|17.516|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:13.812Z|e62db1ba7ac2441 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.760|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:20.801Z|f85562e452dc350 |127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|16.307|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:37.796Z|762cd3bb2494ff96|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|18.307|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:38.782Z|66ec19699fb10203|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|503|-|6.843|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:38.788Z|154f5c9294691886|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.754|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:15:53.790Z|339db252e0c8d59d|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|19.076|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:16:03.795Z|5ec210001ae1545 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|503|-|31.480|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:16:03.800Z|640e1f140a7485bf|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.809|Chrome|96.0.4664.45|Windows|10
+2021-12-05T16:16:09.778Z|50b83e48b0bde254|127.0.0.1|admin|GET|/api/v1/ui/systemlogs/logData?id=artifactory-service.log&fileSize=951000|200|102|-|16.307|Chrome|96.0.4664.45|Windows|10
