@@ -1,0 +1,43 @@
+Started by user [8mha:////4IKVkEB1oLjmU+5e/rMKzm6mJjnIEJE5mm69OlnRgPYNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building remotely on [8mha:////4DX8Bx99qX8Gvkutp0c16WTXz11LNwLD5jB6ntiJmsZ+AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eCcxLJUAE32xgfEAAAA[0mSlave (slave) in workspace /home/workspace/20210531-CICD_Projekt 1-Jenkins-zad2-CodePull
+FATAL: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from 172.17.0.1/172.17.0.1:43392
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1795)
+		at hudson.remoting.Request.call(Request.java:199)
+		at hudson.remoting.Channel.call(Channel.java:1000)
+		at hudson.EnvVars.getRemote(EnvVars.java:436)
+		at hudson.model.Computer.getEnvironment(Computer.java:1177)
+		at hudson.model.Job.getEnvironment(Job.java:384)
+		at hudson.model.AbstractProject.getEnvironment(AbstractProject.java:334)
+		at hudson.model.Run.getEnvironment(Run.java:2419)
+		at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:943)
+		at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1290)
+		at hudson.scm.SCM.checkout(SCM.java:505)
+		at hudson.model.AbstractProject.checkout(AbstractProject.java:1213)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:637)
+		at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:509)
+		at hudson.model.Run.execute(Run.java:1888)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:99)
+		at hudson.model.Executor.run(Executor.java:432)
+Caused: hudson.remoting.RequestAbortedException
+	at hudson.remoting.Request.abort(Request.java:345)
+	at hudson.remoting.Channel.terminate(Channel.java:1082)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:238)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:288)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:170)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)
+	at org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:142)
+	at org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:790)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: FAILURE

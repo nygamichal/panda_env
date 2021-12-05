@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.BooleanParameterDefinition>
+          <name>booleanParameter</name>
+          <description>Parametr logiczny. Wykonaj coś, tylko jeżeli zaznaczyłeś prawdę.</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>choiceParameter</name>
+          <description>Parametr wyboru. Wykonaj coś z listy dostępnych opcji.</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>choice1</string>
+              <string>choice2</string>
+              <string>choice3</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>stringParameter</name>
+          <description>Parametr string. Pozwala na wprowadzenie danych do zmiennej.</description>
+          <defaultValue>DefaultEMPTY</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;=============Boolean Parameter=============&quot;
+if [ $booleanParameter == true ]
+then
+	echo &quot;booleanParameter jest ZAZNACZONY.&quot;
+else
+	echo &quot;booleanParameter NIE jest ZAZNACZONY.&quot;
+fi
+echo &quot;=============Choice Parameter=============&quot;
+echo &quot;$choiceParameter&quot;
+echo &quot;=============String Parameter=============&quot;
+echo &quot;$stringParameter&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

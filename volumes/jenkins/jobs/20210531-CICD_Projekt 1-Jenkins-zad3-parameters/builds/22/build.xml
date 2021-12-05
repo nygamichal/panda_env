@@ -1,0 +1,54 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.BooleanParameterValue>
+          <name>booleanParameter</name>
+          <description>Parametr logiczny. Wykonaj coś, tylko jeżeli zaznaczyłeś prawdę.</description>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>choiceParameter</name>
+          <description>Parametr wyboru. Wykonaj coś z listy dostępnych opcji.</description>
+          <value>choice1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>stringParameter</name>
+          <description>Parametr string. Pozwala na wprowadzenie danych do zmiennej.</description>
+          <value>DefaultEMPTY</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>booleanParameter</string>
+        <string>choiceParameter</string>
+        <string>stringParameter</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>panda</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>26</queueId>
+  <timestamp>1635777375209</timestamp>
+  <startTime>1635777375218</startTime>
+  <result>SUCCESS</result>
+  <duration>17</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/20210531-CICD_Projekt 1-Jenkins-zad2-boolean</workspace>
+  <hudsonVersion>2.318</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

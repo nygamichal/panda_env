@@ -1,0 +1,100 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.318</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.ProjectMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:panda</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:panda</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:panda</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:panda</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:panda</permission>
+    <permission>hudson.model.Computer.Build:panda</permission>
+    <permission>hudson.model.Computer.Configure:panda</permission>
+    <permission>hudson.model.Computer.Connect:panda</permission>
+    <permission>hudson.model.Computer.Create:panda</permission>
+    <permission>hudson.model.Computer.Delete:panda</permission>
+    <permission>hudson.model.Computer.Disconnect:panda</permission>
+    <permission>hudson.model.Hudson.Administer:panda</permission>
+    <permission>hudson.model.Hudson.Read:panda</permission>
+    <permission>hudson.model.Hudson.Read:test</permission>
+    <permission>hudson.model.Item.Build:panda</permission>
+    <permission>hudson.model.Item.Cancel:panda</permission>
+    <permission>hudson.model.Item.Configure:panda</permission>
+    <permission>hudson.model.Item.Create:panda</permission>
+    <permission>hudson.model.Item.Delete:panda</permission>
+    <permission>hudson.model.Item.Discover:panda</permission>
+    <permission>hudson.model.Item.Move:panda</permission>
+    <permission>hudson.model.Item.Read:panda</permission>
+    <permission>hudson.model.Item.Read:test</permission>
+    <permission>hudson.model.Item.Workspace:panda</permission>
+    <permission>hudson.model.Run.Delete:panda</permission>
+    <permission>hudson.model.Run.Replay:panda</permission>
+    <permission>hudson.model.Run.Update:panda</permission>
+    <permission>hudson.model.View.Configure:panda</permission>
+    <permission>hudson.model.View.Create:panda</permission>
+    <permission>hudson.model.View.Delete:panda</permission>
+    <permission>hudson.model.View.Read:panda</permission>
+    <permission>hudson.scm.SCM.Tag:panda</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:panda</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:panda</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.View:panda</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.View:test</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Maven</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="java.lang.String$CaseInsensitiveComparator"/>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>50000</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

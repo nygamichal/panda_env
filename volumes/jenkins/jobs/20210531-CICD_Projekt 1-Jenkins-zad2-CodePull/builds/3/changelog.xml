@@ -1,0 +1,10 @@
+commit cb6d40cb329d82e6fd71f09dd7a5a6b5392cacbf
+tree 1d4d982395bcc1fb7d8ac3b10824f7fb13b29d54
+parent ea9d9bc10bdb2e4694b9fd05c40f0af19b0fa7ad
+author Michal Nyga <mnyga94@gmail.com> 2021-11-17 22:26:54 +0000
+committer Michal Nyga <mnyga94@gmail.com> 2021-11-17 22:26:54 +0000
+
+    Line 39 from ubuntucompose to http://ubuntuslave:%s/ which is name of container.
+
+
+:100644 100644 90899625ad2a9b37027fcab58900dac8d6c651c0 ea09d47f5f387bcf0d81256a0a8ec9bf480b0ec6 M	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java

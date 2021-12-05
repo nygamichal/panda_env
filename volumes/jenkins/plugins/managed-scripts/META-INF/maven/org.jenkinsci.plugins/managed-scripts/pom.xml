@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>4.13</version>
+    </parent>
+
+    <groupId>org.jenkinsci.plugins</groupId>
+    <artifactId>managed-scripts</artifactId>
+    <version>1.5.4</version>
+    <packaging>hpi</packaging>
+    <name>Managed Scripts</name>
+    <description>Managed scripts are shell script which are managed centrally by an administrator and can be referenced as a build step within jobs.</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <java.level>8</java.level>
+        <jenkins.version>2.277</jenkins.version>
+    </properties>
+
+    <url>https://github.com/jenkinsci/managed-scripts-plugin</url>
+    <scm>
+        <connection>scm:git:git://github.com/jenkinsci/managed-scripts-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/managed-scripts-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/managed-scripts-plugin</url>
+      <tag>managed-scripts-1.5.4</tag>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>maven.jenkins-ci.org</id>
+            <url>https://repo.jenkins-ci.org/releases</url>
+        </repository>
+    </distributionManagement>
+    <developers>
+        <developer>
+            <id>imod</id>
+            <name>Dominik Bartholdi</name>
+        </developer>
+        <developer>
+            <id>gbigenios</id>
+            <name>J White</name>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>config-file-provider</artifactId>
+            <version>3.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>token-macro</artifactId>
+            <version>2.8</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>https://repo.jenkins-ci.org/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>https://repo.jenkins-ci.org/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

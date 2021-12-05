@@ -1,0 +1,9 @@
+Started by user [8mha:////4IKVkEB1oLjmU+5e/rMKzm6mJjnIEJE5mm69OlnRgPYNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/20210531-CICD_Projekt 1-Jenkins-zad2-boolean
+[20210531-CICD_Projekt 1-Jenkins-zad2-boolean] $ /bin/sh -xe /tmp/jenkins17546644662733572253.sh
++ [true==true]
+/tmp/jenkins17546644662733572253.sh: 3: [true==true]: not found
++ echo false
+false
+Finished: SUCCESS
