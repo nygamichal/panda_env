@@ -1,0 +1,67 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.42">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.9.2"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.9.2">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
+    <script>pipeline {
+    agent {
+      label &apos;Slave&apos;
+    }
+
+    tools {
+        // Install the Maven version configured as &quot;M3&quot; and add it to the path.
+        maven &quot;m3&quot;
+    }
+
+    stages {
+        //Git
+        stage(&apos;Get Code&apos;) {
+            steps {
+                // Get some code from a GitHub repository
+                git branch: &apos;selenium_grid&apos;, url: &apos;https://github.com/nygamichal/panda_applicationALL.git&apos;
+            }
+        }
+        
+        //Build
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &quot;mvn clean install&quot;
+            }            
+        }
+        
+        //Test
+        stage(&apos;Test&apos;) {
+            steps {
+                sh &quot;mvn test -Pselenium&quot;
+            }            
+        }
+        
+        //Deploy
+        stage(&apos;Deploy&apos;) {
+            steps 
+            {
+                configFileProvider([configFile(fileId: &apos;73db171a-2bf5-442b-9e85-0ca67787a243&apos;, variable: &apos;mavensettings&apos;)]) 
+                {
+                sh &quot;mvn -s $mavensettings deploy -Dmaven.test.skip=true -e&quot;
+                }
+            }            
+        }
+        
+        
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

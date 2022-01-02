@@ -830,3 +830,178 @@ Database.Type                                        | 1
 2021-12-05T16:16:17.772Z [jfmd ] [ERROR] [7a285f4628c31e3e] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
 2021-12-05T16:16:19.054Z [jfmd ] [ERROR] [7a285f4628c31e3e] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
 2021-12-05T16:16:19.054Z [jfmd ] [ERROR] [7a285f4628c31e3e] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T18:10:52.717Z [jfmd ] [INFO ] [7fa43322815fe7d2] [database_bearer.go:126        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-12-05T18:10:52.725Z [jfmd ] [INFO ] [7fa43322815fe7d2] [migrator.go:62                ] [main                ] - Applying 45 migrations files [database]
+2021-12-05T18:10:52.729Z [jfmd ] [INFO ] [7fa43322815fe7d2] [application.go:70             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.28.0 Revision: ce358d18db5 PID: 3555 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-12-05T18:10:52.738Z [jfmd ] [INFO ] [7fa43322815fe7d2] [server_bearer.go:176          ] [main                ] - Got service_id from datastore: jfmd@01fm73sw2hffqpz18jr6kq7m9p [ServerInit]
+2021-12-05T18:10:56.758Z [jfmd ] [INFO ] [7fa43322815fe7d2] [accessclient.go:62            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-05T18:11:01.761Z [jfmd ] [INFO ] [7fa43322815fe7d2] [accessclient.go:62            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-05T18:11:06.767Z [jfmd ] [INFO ] [7fa43322815fe7d2] [accessclient.go:62            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-05T18:11:11.802Z [jfmd ] [INFO ] [7fa43322815fe7d2] [accessclient.go:62            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-12-05T18:11:11.802Z [jfmd ] [INFO ] [7fa43322815fe7d2] [accessclient.go:62            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01fm73sw2hffqpz18jr6kq7m9p [access_client]
+2021-12-05T18:11:11.848Z [jfmd ] [INFO ] [7fa43322815fe7d2] [router_middlewares.go:56      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Request.Rotation.IntervalSeconds             | 0
+Database.Type                                        | 1
+AccessClient.Url                                     | http://localhost:8081/access
+Keys.ReadAttempts                                    | 120
+Port                                                 | 8086
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Profiling.Enabled                                    | false
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.MaxAgeDays              | 365
+Shared.NewRelic.Enabled                              | false
+Logging.Request.Rotation.Compress                    | true
+Keys.ReadIntervalDuration                            | 1s
+Logging.Application.Rotation.Compress                | true
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.MaxAgeDays                  | 365
+AccessClient.JoinTimeout                             | 3m0s
+Shared.NewRelic.AppName                              | 
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+
+2021-12-05T18:11:11.848Z [jfmd ] [INFO ] [7fa43322815fe7d2] [router_middlewares.go:57      ] [main                ] - Metadata (jfmd) service initialization completed in 19.119 seconds. Listening on port: 8086 [router]
+2021-12-05T18:11:11.848Z [jfmd ] [INFO ] [7fa43322815fe7d2] [async_converter.go:196        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-12-05T18:16:11.897Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-05T18:46:11.937Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-05T19:01:11.981Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-05T19:09:13.696Z [jfmd ] [INFO ] [ba4a92094c61bd9b] [path_service.go:65            ] [main                ] - Deleting versions 1 for path pl/pandait/panda/0.0.1/panda-0.0.1.pom [path_service]
+2021-12-05T19:09:13.804Z [jfmd ] [WARN ] [ba4a92094c61bd9b] [package_update_helper.go:41   ] [main                ] - Unable to update the package 'gav://pl.pandait:panda' because no latest version was found. Cause: [<nil>] [path_service]
+2021-12-05T19:11:11.984Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-05T20:42:16.576Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-05T20:42:16.577Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-05T20:42:16.578Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.578Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.589Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.590Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.611Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.611Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.652Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.652Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.734Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.734Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.896Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:16.897Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:17.217Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:17.217Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:17.858Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:17.859Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:19.140Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-05T20:42:19.140Z [jfmd ] [ERROR] [7fa43322815fe7d2] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T17:18:19.678Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [database_bearer.go:126        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-12-22T17:18:19.888Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [migrator.go:62                ] [main                ] - Applying 45 migrations files [database]
+2021-12-22T17:18:20.031Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [application.go:70             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.28.0 Revision: ce358d18db5 PID: 3565 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-12-22T17:18:20.237Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [server_bearer.go:176          ] [main                ] - Got service_id from datastore: jfmd@01fm73sw2hffqpz18jr6kq7m9p [ServerInit]
+2021-12-22T17:18:24.581Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:18:29.738Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:18:34.871Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:18:40.524Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:18:45.643Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:18:50.770Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:18:56.161Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:19:01.170Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:19:06.185Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:19:11.190Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-12-22T17:19:16.338Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-12-22T17:19:16.338Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [accessclient.go:62            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01fm73sw2hffqpz18jr6kq7m9p [access_client]
+2021-12-22T17:19:16.395Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [router_middlewares.go:56      ] [main                ] - 
+Metadata Info
+========================
+
+Shared.NewRelic.DistributedTracerEnabled             | true
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.AppName                              | 
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.IntervalSeconds             | 0
+AccessClient.Url                                     | http://localhost:8081/access
+Profiling.Enabled                                    | false
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.Compress                | true
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.Compress                    | true
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Database.Type                                        | 1
+AccessClient.JoinTimeout                             | 3m0s
+Keys.ReadAttempts                                    | 120
+Port                                                 | 8086
+Shared.NewRelic.EnableDebugLog                       | false
+Keys.ReadIntervalDuration                            | 1s
+
+2021-12-22T17:19:16.395Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [router_middlewares.go:57      ] [main                ] - Metadata (jfmd) service initialization completed in 56.363 seconds. Listening on port: 8086 [router]
+2021-12-22T17:19:16.395Z [jfmd ] [INFO ] [43742d7c6f00c3eb] [async_converter.go:196        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-12-22T19:28:06.540Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-22T19:28:06.540Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2021-12-22T19:28:06.594Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.594Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.606Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.606Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.627Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.627Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.670Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.670Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.751Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.751Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.914Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:06.914Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:07.235Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:07.236Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:07.876Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:07.877Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:09.158Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing project change events gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2021-12-22T19:28:09.158Z [jfmd ] [ERROR] [43742d7c6f00c3eb] [compatibility_logger.go:33    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2022-01-02T19:15:41.993Z [jfmd ] [INFO ] [2b27b8abdf50126b] [database_bearer.go:126        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2022-01-02T19:15:42.028Z [jfmd ] [INFO ] [2b27b8abdf50126b] [migrator.go:62                ] [main                ] - Applying 45 migrations files [database]
+2022-01-02T19:15:42.030Z [jfmd ] [INFO ] [2b27b8abdf50126b] [application.go:70             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.28.0 Revision: ce358d18db5 PID: 3561 Home: /opt/jfrog/artifactory/var [app_initializer]
+2022-01-02T19:15:42.031Z [jfmd ] [INFO ] [2b27b8abdf50126b] [server_bearer.go:176          ] [main                ] - Got service_id from datastore: jfmd@01fm73sw2hffqpz18jr6kq7m9p [ServerInit]
+2022-01-02T19:15:46.098Z [jfmd ] [INFO ] [2b27b8abdf50126b] [accessclient.go:62            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2022-01-02T19:15:51.116Z [jfmd ] [INFO ] [2b27b8abdf50126b] [accessclient.go:62            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2022-01-02T19:15:56.123Z [jfmd ] [INFO ] [2b27b8abdf50126b] [accessclient.go:62            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2022-01-02T19:16:01.132Z [jfmd ] [INFO ] [2b27b8abdf50126b] [accessclient.go:62            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2022-01-02T19:16:06.141Z [jfmd ] [INFO ] [2b27b8abdf50126b] [accessclient.go:62            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2022-01-02T19:16:07.217Z [jfmd ] [INFO ] [2b27b8abdf50126b] [accessclient.go:62            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2022-01-02T19:16:07.217Z [jfmd ] [INFO ] [2b27b8abdf50126b] [accessclient.go:62            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01fm73sw2hffqpz18jr6kq7m9p [access_client]
+2022-01-02T19:16:07.278Z [jfmd ] [INFO ] [2b27b8abdf50126b] [router_middlewares.go:56      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.IntervalSeconds             | 0
+AccessClient.Url                                     | http://localhost:8081/access
+AccessClient.JoinTimeout                             | 3m0s
+Port                                                 | 8086
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Logging.Request.Rotation.Compress                    | true
+Keys.ReadAttempts                                    | 120
+Shared.NewRelic.AppName                              | 
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Level                            | info
+Keys.ReadIntervalDuration                            | 1s
+Profiling.Enabled                                    | false
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Database.Type                                        | 1
+
+2022-01-02T19:16:07.278Z [jfmd ] [INFO ] [2b27b8abdf50126b] [router_middlewares.go:57      ] [main                ] - Metadata (jfmd) service initialization completed in 25.247 seconds. Listening on port: 8086 [router]
+2022-01-02T19:16:07.278Z [jfmd ] [INFO ] [2b27b8abdf50126b] [async_converter.go:196        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]

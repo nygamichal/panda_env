@@ -1,24 +1,10 @@
-Started at Sat Dec 04 19:23:24 UTC 2021
+Started at Sun Jan 02 19:31:50 UTC 2022
 Processing 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld
 Offering 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld to Project Build Discarder
 Processing 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull
 Offering 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull to Project Build Discarder
 Processing 20210531-CICD_Projekt 1-Jenkins-zad3-parameters
 Offering 20210531-CICD_Projekt 1-Jenkins-zad3-parameters to Project Build Discarder
-Finished at Sat Dec 04 19:23:24 UTC 2021. 2ms
-Started at Sat Dec 04 20:23:24 UTC 2021
-Processing 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld
-Offering 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld to Project Build Discarder
-Processing 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull
-Offering 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull to Project Build Discarder
-Processing 20210531-CICD_Projekt 1-Jenkins-zad3-parameters
-Offering 20210531-CICD_Projekt 1-Jenkins-zad3-parameters to Project Build Discarder
-Finished at Sat Dec 04 20:23:24 UTC 2021. 1ms
-Started at Sat Dec 04 21:23:24 UTC 2021
-Processing 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld
-Offering 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld to Project Build Discarder
-Processing 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull
-Offering 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull to Project Build Discarder
-Processing 20210531-CICD_Projekt 1-Jenkins-zad3-parameters
-Offering 20210531-CICD_Projekt 1-Jenkins-zad3-parameters to Project Build Discarder
-Finished at Sat Dec 04 21:23:24 UTC 2021. 0ms
+Processing 20210621 - CICD 4 - 1 - Pipeline Syntax
+Offering 20210621 - CICD 4 - 1 - Pipeline Syntax to Project Build Discarder
+Finished at Sun Jan 02 19:31:50 UTC 2022. 5ms

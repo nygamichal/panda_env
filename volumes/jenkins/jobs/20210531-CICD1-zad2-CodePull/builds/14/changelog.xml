@@ -1,0 +1,10 @@
+commit a63bf16405edd2ec4c01a43fc4be501049b582d3
+tree 6faa36f28577b39ad16aaf3bf3c177213ba1eda2
+parent cf698e7a5560b3f23f495d3591d46bd6e134b4d8
+author Michal Nyga <mnyga94@gmail.com> 2021-12-05 18:46:28 +0000
+committer Michal Nyga <mnyga94@gmail.com> 2021-12-05 18:46:28 +0000
+
+    Replace ip address with container name
+
+
+:100644 100644 90899625ad2a9b37027fcab58900dac8d6c651c0 61adaa1bf3e1260f5fcd0a7bf5b43d88e3a4eb02 M	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java
