@@ -1,3 +1,7 @@
+# Jenkins - Additional plugins:
+- pipeline utility steps - to run maven
+- 
+
 # panda_application
 
 
