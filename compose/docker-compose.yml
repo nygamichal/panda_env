@@ -29,7 +29,7 @@ services:
   
 
   selenium_hub:
-    image: selenium/hub
+    image: selenium/hub:3.141.59-20210607
     container_name: selenium-hubcompose
     ports:
       - 4444:4444
@@ -38,7 +38,7 @@ services:
   
 
   selenium_firefox:
-    image: selenium/node-firefox
+    image: selenium/node-firefox:88.0-20210426
     container_name: firefoxcompose
     environment:
       - HUB_HOST=selenium-hubcompose
