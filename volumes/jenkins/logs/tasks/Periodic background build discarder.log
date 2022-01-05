@@ -1,10 +1,14 @@
-Started at Sun Jan 02 19:31:50 UTC 2022
-Processing 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld
-Offering 20210531-CICD_Projekt 1-Jenkins-zad1-HelloWorld to Project Build Discarder
-Processing 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull
-Offering 20210531-CICD_Projekt 1-Jenkins-zad2-CodePull to Project Build Discarder
-Processing 20210531-CICD_Projekt 1-Jenkins-zad3-parameters
-Offering 20210531-CICD_Projekt 1-Jenkins-zad3-parameters to Project Build Discarder
-Processing 20210621 - CICD 4 - 1 - Pipeline Syntax
-Offering 20210621 - CICD 4 - 1 - Pipeline Syntax to Project Build Discarder
-Finished at Sun Jan 02 19:31:50 UTC 2022. 5ms
+Started at Mon Jan 03 20:14:00 UTC 2022
+Processing 20210531-CICD1_1-HelloWorld
+Offering 20210531-CICD1_1-HelloWorld to Project Build Discarder
+Processing 20210531-CICD1_2-CodePull
+Offering 20210531-CICD1_2-CodePull to Project Build Discarder
+Processing 20210531-CICD1_3-parameters
+Offering 20210531-CICD1_3-parameters to Project Build Discarder
+Processing 20210621-CICD4-PipelineSyntax
+Offering 20210621-CICD4-PipelineSyntax to Project Build Discarder
+Processing 20210623-CICD5_1-Project_Template
+Offering 20210623-CICD5_1-Project_Template to Project Build Discarder
+Processing 20210623-CICD5_2-Panda_Application
+Offering 20210623-CICD5_2-Panda_Application to Project Build Discarder
+Finished at Mon Jan 03 20:14:00 UTC 2022. 2ms

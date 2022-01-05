@@ -1,0 +1,65 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.42">
+  <actions/>
+  <description>Assign agent which will be used during build (slave)&#xd;
+Automatic installation of Maven&#xd;
+&#xd;
+Build steps:&#xd;
+- Clean the already running version of the application (only if it exists)&#xd;
+- Download source code from the repository.&#xd;
+- Build code and test by Junit&#xd;
+- Build docker image with the application.&#xd;
+- Run application.&#xd;
+- Selenium tests.&#xd;
+- Push artifact into Artifcatory.&#xd;
+- Each time clean application and workspace.</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
+    <script>pipeline {
+    agent {
+         label &apos;Slave’
+    }
+    tools {.
+         maven &quot;m3&quot;
+    }
+    stages {
+         stage(&apos;Clear running apps&apos;) {
+             steps {
+             }
+         }
+         stage(&apos;Get Code&apos;) {
+             steps {
+             }
+         }
+         stage(&apos;Build and Junit&apos;) {
+             steps {
+             }
+         }
+         stage(&apos;Build Docker image’){
+             steps {
+             }
+         }
+         stage(&apos;Run Docker app&apos;) {
+             steps {
+             }
+         }
+         stage(&apos;Test Selenium&apos;) {
+             steps {
+             }
+         }
+         stage(&apos;Deploy jar to artifactory&apos;) {
+             steps {
+             }
+         } 
+             post {
+                 always { 
+                 }
+             }
+         }
+    }</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

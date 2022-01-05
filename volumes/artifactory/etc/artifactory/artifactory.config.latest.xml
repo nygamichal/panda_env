@@ -4,7 +4,7 @@
     <archiveIndexEnabled>false</archiveIndexEnabled>
     <helpLinksEnabled>true</helpLinksEnabled>
     <fileUploadMaxSizeMb>100</fileUploadMaxSizeMb>
-    <revision>6</revision>
+    <revision>7</revision>
     <dateFormat>dd-MM-yy HH:mm:ss z</dateFormat>
     <addons>
         <showAddonsInfo>true</showAddonsInfo>
@@ -28,6 +28,12 @@
         </passwordSettings>
         <ldapSettings/>
         <ldapGroupSettings/>
+        <oauthSettings>
+            <enableIntegration>false</enableIntegration>
+            <allowUserToAccessProfile>false</allowUserToAccessProfile>
+            <persistUsers>false</persistUsers>
+            <oauthProvidersSettings/>
+        </oauthSettings>
         <userLockPolicy>
             <enabled>false</enabled>
             <loginAttempts>5</loginAttempts>
@@ -250,27 +256,7 @@
     <federatedRepositories/>
     <releaseBundlesRepositories/>
     <proxies/>
-    <reverseProxies>
-        <reverseProxy>
-            <key>direct</key>
-            <webServerType>direct</webServerType>
-            <artifactoryAppContext>artifactory</artifactoryAppContext>
-            <publicAppContext>artifactory</publicAppContext>
-            <serverName>localhost</serverName>
-            <serverNameExpression></serverNameExpression>
-            <sslCertificate></sslCertificate>
-            <sslKey></sslKey>
-            <dockerReverseProxyMethod>path</dockerReverseProxyMethod>
-            <useHttps>false</useHttps>
-            <useHttp>true</useHttp>
-            <sslPort>443</sslPort>
-            <httpPort>8080</httpPort>
-            <reverseProxyRepositories/>
-            <artifactoryServerName>artifactory_host_placeholder</artifactoryServerName>
-            <upStreamName>artifactory</upStreamName>
-            <artifactoryPort>8081</artifactoryPort>
-        </reverseProxy>
-    </reverseProxies>
+    <reverseProxies/>
     <propertySets>
         <propertySet>
             <name>artifactory</name>

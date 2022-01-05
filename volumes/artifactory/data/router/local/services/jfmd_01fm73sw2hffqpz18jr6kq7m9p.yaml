@@ -7,5 +7,5 @@ endpoints:
 healthcheckendpoint:
     path: /api/v1/system/readiness
     port: 8086
-nodeid: 9d1de9036be0
+nodeid: 26703a16862f
 serviceid: jfmd@01fm73sw2hffqpz18jr6kq7m9p

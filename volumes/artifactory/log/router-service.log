@@ -540,3 +540,83 @@ shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.
 ###############################################################
 ###   All services started successfully in 42.724 seconds   ###
 ###############################################################
+2022-01-02T22:23:53.718Z [jfrou] [ERROR] [25bff3913baaf1e6] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:50848->127.0.0.1:8040: read: connection reset by peer
+2022-01-02T22:23:55.374Z [jfrou] [WARN ] [426219db4e6c0fcc] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-02T22:23:55.612Z [jfrou] [ERROR] [2b713772198f8170] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2022-01-02T22:23:58.343Z [jfrou] [INFO ] [404fdb3bdca4af9b] [application.go:69             ] [main                ] - Received OS signal: terminated
+2022-01-02T22:23:58.344Z [jfrou] [INFO ] [404fdb3bdca4af9b] [main.go:52                    ] [main                ] - Shutting down
+2022-01-02T22:23:58.394Z [jfrou] [WARN ] [e153539ea1cc368 ] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-02T22:23:58.406Z [jfrou] [WARN ] [e153539ea1cc368 ] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-02T22:23:58.417Z [jfrou] [WARN ] [e153539ea1cc368 ] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-02T22:23:58.418Z [jfrou] [ERROR] [e153539ea1cc368 ] [local_topology.go:302         ] [main                ] - Could not perform shutdown heartbeat: context canceled. last error: failed sending heartbeat information to Access: failed closing Access grpc client: rpc error: code = Unimplemented desc = Not Found: HTTP status code 404; transport: received the unexpected content-type "text/plain; charset=utf-8"
+2022-01-03T16:16:03.985Z [jfrou] [INFO ] [38a5171ebf7abecb] [bootstrap.go:76               ] [main                ] - Router (jfrou) service initialization started. Version: 7.26.0-1 Revision: fc921b2dfafca1829dfa35c5ee2dd6898e0faae1 PID: 3389 Home: /opt/jfrog/artifactory
+2022-01-03T16:16:04.829Z [jfrou] [INFO ] [38a5171ebf7abecb] [bootstrap.go:79               ] [main                ] - JFrog Router IP: 172.19.0.2
+2022-01-03T16:16:04.831Z [jfrou] [INFO ] [38a5171ebf7abecb] [bootstrap.go:192              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2022-01-03T16:16:04.833Z [jfrou] [INFO ] [38a5171ebf7abecb] [bootstrap.go:84               ] [main                ] - JFrog Router Service ID: jfrou@01fm73sv6s4d6cyy1rm4qbwzj4
+2022-01-03T16:16:04.833Z [jfrou] [INFO ] [38a5171ebf7abecb] [bootstrap.go:85               ] [main                ] - JFrog Router Node ID: 9d1de9036be0
+2022-01-03T16:16:04.867Z [jfrou] [INFO ] [38a5171ebf7abecb] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2022-01-03T16:16:04.870Z [jfrou] [INFO ] [38a5171ebf7abecb] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2022-01-03T16:16:06.112Z [jfrou] [INFO ] [38a5171ebf7abecb] [config_holder.go:107          ] [main                ] - Configuration update detected
+2022-01-03T16:16:23.059Z [jfrou] [INFO ] [38a5171ebf7abecb] [join_executor.go:116          ] [main                ] - Cluster join: Trying to rejoin the cluster
+2022-01-03T16:16:23.776Z [jfrou] [INFO ] [38a5171ebf7abecb] [join_executor.go:205          ] [main                ] - Cluster join: Successfully joined the cluster
+2022-01-03T16:16:23.778Z [jfrou] [INFO ] [38a5171ebf7abecb] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2022-01-03T16:16:23.778Z [jfrou] [INFO ] [38a5171ebf7abecb] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2022-01-03T16:16:23.788Z [jfrou] [INFO ] [38a5171ebf7abecb] [registry_handler.go:89        ] [main                ] - The following services were restored automatically based on persisted data: jffe@000, jfmd@01fm73sw2hffqpz18jr6kq7m9p, jfob@01fm73sqysjgst0t1vddpw09kv
+2022-01-03T16:16:23.799Z [jfrou] [INFO ] [38a5171ebf7abecb] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 19.816 seconds. Listening on port: 8082
+2022-01-03T16:16:23.802Z [jfrou] [WARN ] [34a46c2b0858b3b4] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T16:16:28.812Z [jfrou] [WARN ] [5bf022ccd74d7bae] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T16:16:33.823Z [jfrou] [WARN ] [f9f057cf6c59e4f ] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T16:16:38.810Z [jfrou] [WARN ] [1f8ffd24c807dc68] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T16:16:43.812Z [jfrou] [INFO ] [99a1bdaf42c00f6 ] [local_topology.go:270         ] [main                ] - 
+###############################################################
+###   All services started successfully in 39.830 seconds   ###
+###############################################################
+2022-01-03T21:08:41.152Z [jfrou] [ERROR] [3fd96b791407b2de] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:40858->127.0.0.1:8040: read: connection reset by peer
+2022-01-03T21:08:41.955Z [jfrou] [ERROR] [7d861a5cd1b46a1a] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2022-01-03T21:08:42.223Z [jfrou] [WARN ] [74e7c1bf7fc97bc0] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:08:44.956Z [jfrou] [ERROR] [99462bfa4b9e92f ] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2022-01-03T21:08:45.041Z [jfrou] [INFO ] [38a5171ebf7abecb] [application.go:69             ] [main                ] - Received OS signal: terminated
+2022-01-03T21:08:45.041Z [jfrou] [INFO ] [38a5171ebf7abecb] [main.go:52                    ] [main                ] - Shutting down
+2022-01-03T21:08:45.083Z [jfrou] [WARN ] [26ef73e6ea6824bb] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:08:45.095Z [jfrou] [WARN ] [26ef73e6ea6824bb] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:08:45.107Z [jfrou] [WARN ] [26ef73e6ea6824bb] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:08:45.108Z [jfrou] [ERROR] [26ef73e6ea6824bb] [local_topology.go:302         ] [main                ] - Could not perform shutdown heartbeat: context canceled. last error: failed sending heartbeat information to Access: failed closing Access grpc client: rpc error: code = Unimplemented desc = Not Found: HTTP status code 404; transport: received the unexpected content-type "text/plain; charset=utf-8"
+2022-01-03T21:11:57.878Z [jfrou] [INFO ] [79863b7d745ba5be] [bootstrap.go:76               ] [main                ] - Router (jfrou) service initialization started. Version: 7.26.0-1 Revision: fc921b2dfafca1829dfa35c5ee2dd6898e0faae1 PID: 3397 Home: /opt/jfrog/artifactory
+2022-01-03T21:11:57.879Z [jfrou] [INFO ] [79863b7d745ba5be] [bootstrap.go:79               ] [main                ] - JFrog Router IP: 172.19.0.4
+2022-01-03T21:11:57.880Z [jfrou] [INFO ] [79863b7d745ba5be] [bootstrap.go:192              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2022-01-03T21:11:57.880Z [jfrou] [INFO ] [79863b7d745ba5be] [bootstrap.go:84               ] [main                ] - JFrog Router Service ID: jfrou@01fm73sv6s4d6cyy1rm4qbwzj4
+2022-01-03T21:11:57.880Z [jfrou] [INFO ] [79863b7d745ba5be] [bootstrap.go:85               ] [main                ] - JFrog Router Node ID: 26703a16862f
+2022-01-03T21:11:57.912Z [jfrou] [INFO ] [79863b7d745ba5be] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2022-01-03T21:11:57.913Z [jfrou] [INFO ] [79863b7d745ba5be] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2022-01-03T21:11:59.908Z [jfrou] [INFO ] [79863b7d745ba5be] [config_holder.go:107          ] [main                ] - Configuration update detected
+2022-01-03T21:12:17.374Z [jfrou] [INFO ] [79863b7d745ba5be] [join_executor.go:116          ] [main                ] - Cluster join: Trying to rejoin the cluster
+2022-01-03T21:12:17.995Z [jfrou] [INFO ] [79863b7d745ba5be] [join_executor.go:205          ] [main                ] - Cluster join: Successfully joined the cluster
+2022-01-03T21:12:17.997Z [jfrou] [INFO ] [79863b7d745ba5be] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2022-01-03T21:12:17.997Z [jfrou] [INFO ] [79863b7d745ba5be] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2022-01-03T21:12:18.020Z [jfrou] [INFO ] [79863b7d745ba5be] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 20.145 seconds. Listening on port: 8082
+2022-01-03T21:12:18.020Z [jfrou] [WARN ] [4eb89d80d8025196] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:12:23.033Z [jfrou] [WARN ] [112b3908c42630f4] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:12:28.068Z [jfrou] [WARN ] [5ff5e0a304f9237 ] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:12:33.065Z [jfrou] [WARN ] [2d15ed3ea09ce76 ] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:12:38.118Z [jfrou] [INFO ] [5734575e00867592] [local_topology.go:270         ] [main                ] - 
+###############################################################
+###   All services started successfully in 40.202 seconds   ###
+###############################################################
+2022-01-03T21:37:03.824Z [jfrou] [WARN ] [38673d8ffe4342f0] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:37:04.596Z [jfrou] [ERROR] [5cce28138a4e9571] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2022-01-03T21:37:07.596Z [jfrou] [ERROR] [6bc0234c1767fe5b] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2022-01-03T21:37:08.830Z [jfrou] [WARN ] [569b074a448dd6d4] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:37:09.095Z [jfrou] [INFO ] [79863b7d745ba5be] [application.go:69             ] [main                ] - Received OS signal: terminated
+2022-01-03T21:37:09.095Z [jfrou] [INFO ] [79863b7d745ba5be] [main.go:52                    ] [main                ] - Shutting down
+2022-01-03T21:37:09.096Z [jfrou] [WARN ] [4a0385bf841f8bd7] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:37:09.107Z [jfrou] [WARN ] [4a0385bf841f8bd7] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:37:09.120Z [jfrou] [WARN ] [4a0385bf841f8bd7] [local_topology.go:256         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-01-03T21:37:09.121Z [jfrou] [ERROR] [4a0385bf841f8bd7] [local_topology.go:302         ] [main                ] - Could not perform shutdown heartbeat: context canceled. last error: failed sending heartbeat information to Access: failed closing Access grpc client: rpc error: code = Unimplemented desc = Not Found: HTTP status code 404; transport: received the unexpected content-type "text/plain; charset=utf-8"
