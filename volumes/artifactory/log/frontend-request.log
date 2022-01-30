@@ -1,0 +1,414 @@
+2022-01-29T16:41:07.207Z|6e5392ad8ce0064f|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|220|-|97.390|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:41:07.372Z|fbddd15d1e21a0d |127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|510|-|161.878|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:41:07.399Z|4450edf2e752fb96|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|12.344|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:41:07.442Z|2aa03811d6cf4de1|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|13.420|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:41:07.907Z|5d40b00e3a40601a|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|220|-|35.494|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:41:07.911Z|e68c669e8b3660e |127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|13.944|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:41:07.920Z|77740606e063f5e5|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|21.598|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.599Z|27ee8c9661cca943|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|426|60|169.778|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.662Z|3bf4d3bfe4aeb518|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|4.567|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.696Z|46bbf65a94c44546|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|896|-|46.736|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.705Z|7cdf317dd32c6f70|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|896|-|7.486|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.777Z|3f83f0d83ce660be|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.748|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.795Z|37fd358d7cb05b8a|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|22.330|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.829Z|2ad5c21549d1d799|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|6.196|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.844Z|a651d43b57405a5 |127.0.0.1|admin|GET|/api/v1/system/status/nodes|200|516|-|9.894|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.878Z|7732baeb6b379607|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|22|-|3.294|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.902Z|9ec2fd7dbceb1e7 |127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|17.550|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.928Z|461884bba6b47586|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|586|-|21.316|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:07.967Z|6c1c2396aa49e292|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|937|-|35.550|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:08.111Z|114cb89d26015df2|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|28.255|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:08.171Z|7ab1149db5af3dff|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|84|532|34.965|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:32.853Z|662a361890acf03a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|58.919|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:32.860Z|7108d95e80f38535|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.941|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:49.831Z|270432a91fa194c1|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|74.521|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:49.835Z|331a5c2f066e2f63|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|89.860|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:49.846Z|5d1722aadcb2e60b|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|95.743|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:49.848Z|37ce23c93face960|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|-|-|103.004|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:49.873Z|5542aea0d8dbb627|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|24.234|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:57.774Z|22838eabe43f2a74|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|6.405|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:42:57.779Z|1d41dc8e10fc0287|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.708|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:43:22.768Z|26a117849dc5b20e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|29.791|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:43:22.773Z|64921558046ed026|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.715|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:43:47.743Z|1f214c70ca89ec3d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.424|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:43:47.752Z|16d122b7fa85566c|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.174|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:44:12.734Z|108923931f6bd57e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.662|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:44:12.738Z|665a429d5136e126|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.642|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:44:37.723Z|495b88c15d940073|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.592|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:44:37.728Z|133292f7623a264f|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.381|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:45:02.706Z|3d8302ea1f4dece2|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.056|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:45:02.711Z|3c511bdef5597b0c|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.715|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:45:27.693Z|7819c0b3b9b89f09|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.064|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:45:27.697Z|e40f846ec5bb47  |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.809|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:45:52.683Z|3a6b5d54d4746e4e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.808|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:45:52.689Z|e0dba2eb40f40f0 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.276|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:46:17.680Z|62171330f8da6db4|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.994|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:46:17.684Z|63db29f88f3abcf4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.694|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:46:24.666Z|4184b772fe6d6375|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|19.683|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:46:42.675Z|1d86a6ab8fb3a5b3|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.355|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:46:42.680Z|3bcb20894abc153 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.292|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:07.750Z|1ab4e7a44c359147|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.734|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:07.757Z|36d2d979eb8f35ac|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.521|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:22.105Z|7187c2159bd50046|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|170.468|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:22.105Z|2f41e8f29cea2e49|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|55|-|185.313|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:22.115Z|596d8bf1deb5cba6|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|157.894|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:22.136Z|1518e6d00b95c71c|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|805|-|180.127|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:22.151Z|438a524ccc6cc7d |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/example-repo-local|200|492|-|197.304|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:22.171Z|3e38e7ef78c8c37e|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|1018|-|15.458|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:22.322Z|39356b6be82b891e|127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|44|-|11.771|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:28.082Z|6396110bccd134ca|127.0.0.1|admin|POST|/api/v1/global-search/builds?jfLoader=true|200|13|89|51.619|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:28.944Z|41bebec4bb93c9b3|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|15.879|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:28.979Z|a67982a15931ae  |127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=true|200|-|152|54.218|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.094Z|14b5cbccdf2210a3|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|727|-|12.227|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.095Z|11fc4e0fc8aff6b0|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|8.605|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.095Z|2c28c7171d43d065|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|-|-|16.719|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.120Z|123381b593e1a7a9|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|465|102|13.870|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.161Z|6a465e4f03df330d|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|72|46|14.397|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.178Z|7f3d2e9d0d0e0dfa|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|586|-|6.573|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.260Z|20b4f9453b5528f4|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|-|-|28.885|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.278Z|ad1ef7430b70efd |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|328|66|59.991|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.292Z|245696ca112ad29a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=artifactory-build-info&path=|200|4|-|7.467|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:29.322Z|29a1f6bdee29e5cf|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|25.336|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:30.904Z|56c596786bdfbb35|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|18|124|38.447|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:31.613Z|4de81bba0a529d64|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|455|96|5.485|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:31.626Z|57d804b64f2215ed|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|42|5.009|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:31.669Z|4b527a3ff4c41072|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|323|62|7.147|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:31.679Z|cdc3764d522a555 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=example-repo-local&path=|200|4|-|5.153|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:31.690Z|4b9a27068a359afd|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|7.478|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:32.247Z|1bb3b4b831696d03|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|453|94|4.988|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:32.259Z|1c5785e72cf12235|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|42|5.473|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:32.301Z|3898bcad43d2ce5 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|275|62|6.002|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:32.310Z|297c2e11ac46486a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-release-local&path=|200|4|-|4.434|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:32.321Z|5c1d18442124e28 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|6.951|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:32.639Z|1d29a60e5549f0d0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|5.668|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:32.643Z|3d5c01a1010fbeae|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.692|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.052Z|45631bd9c58df192|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|455|95|5.343|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.065Z|12a698fe23c8ad08|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|69|43|5.708|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.107Z|5dcf9fdfcecc35b7|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|278|63|6.361|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.116Z|34e3ce08adeb8e35|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-snapshot-local&path=|200|4|-|4.603|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.125Z|2847bce14340c012|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|70|5.330|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.669Z|7578f2060b0f1c72|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|441|88|6.270|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.681Z|dd4b7f87473fe51 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|62|36|4.937|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.721Z|6c70296d4fa6b7dd|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|257|56|7.298|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.730Z|65178f6c26a6a04f|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=repoKeyMaven&path=|200|4|-|5.129|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:33.739Z|3d97192da9d20947|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|4.828|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:34.590Z|7c0db03630c18eb8|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|18|114|6.203|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:35.096Z|3ce39f325d0149e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|18|112|5.580|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:35.498Z|44680306bbfa1f67|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|18|126|5.405|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:35.938Z|2ff4d44c4ffbb963|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|18|124|5.494|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:36.429Z|3209217045002208|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|455|96|5.516|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:36.441Z|58fc13f76c1f91f0|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|42|5.312|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:36.480Z|6d828353ccbe3b6e|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|323|62|6.289|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:36.490Z|33bd17fd3528c9e1|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=example-repo-local&path=|200|4|-|5.201|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:36.499Z|2c7eb001518153d7|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|5.138|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:36.964Z|38774f69c24d5bc9|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|465|102|19.020|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:36.978Z|1ee1dc19c2804b6 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|72|46|6.569|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:37.019Z|36f904169008bc47|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|328|66|6.311|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:37.027Z|3ed5854e90cc6eb0|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=artifactory-build-info&path=|200|4|-|4.549|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:37.037Z|220a4bfd55d6f613|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|5.009|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:37.542Z|67414ae9081bfce1|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|18|132|5.549|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:38.487Z|37a694d3429a7fd3|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|5.835|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:38.508Z|9656bd6c8303f6d |127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|84|532|17.212|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:42.622Z|3f12b700f036b95 |127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|13.756|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:42.623Z|7df68be264e1da83|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|14.617|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:42.624Z|3a9906d9169d2d3a|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|16.562|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:42.625Z|59dcb27e0fdfdb63|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|17.179|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:42.626Z|4aa4d3d5cd7e310a|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|-|-|18.167|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.180Z|7f6f6591e0698504|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|805|-|28.572|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.181Z|52cae3389beecf49|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|28.750|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.182Z|36981c517f342408|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/example-repo-local|200|492|-|29.006|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.191Z|1b98f5a0d540b39d|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|1018|-|4.990|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.301Z|d91e539bb0c1e6c |127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|44|-|5.715|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.989Z|94f8fa1967b714f |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|11.586|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.989Z|16ae4ac5a16a5631|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|12.777|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.990Z|59c6d31679e9f180|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|13.765|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:47.991Z|1144e690f222872f|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|-|-|14.917|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:49.553Z|30c78dd48c015157|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|11.131|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:49.553Z|2d3587ba7497e6e7|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|805|-|11.432|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:49.561Z|a17e8a9384da0d1 |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/libs-release-local|200|835|-|20.840|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:49.571Z|41e8e05e8f739f9e|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|1018|-|5.175|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:49.699Z|2f0ada73bcfa60bb|127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|44|-|5.430|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:57.626Z|a4d11641e9a44b7 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|5.455|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:47:57.631Z|bc0077f58fcb1bd |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.754|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:48:22.713Z|75d2c9376fe836e |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.445|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:48:22.718Z|2b9fb54a9c689119|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.699|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:48:47.706Z|7a5b793fab11dba |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.310|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:48:47.711Z|370544c4a821e95a|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.735|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:49:00.865Z|79a337e5fa8c3302|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|18.878|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:49:12.686Z|4a2e0274bea6de54|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.719|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:49:12.691Z|71b295e25264e434|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.858|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:49:37.682Z|82223b459d9552f |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|26.507|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:49:37.688Z|7cf9ee872d509029|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.802|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:50:02.660Z|215eff9d0cb241b8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.676|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:50:02.665Z|6b2ade004106fef4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.702|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:50:27.645Z|10578f01dbd9b93d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.204|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:50:27.651Z|24752ea96e0314e4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.685|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:50:52.638Z|2602b139a25de3f |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.399|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:50:52.643Z|32d17d4f8e893fd6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.663|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:51:17.621Z|3067c916e880aca6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.154|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:51:17.625Z|3b39f7d6cfef1255|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.704|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:51:42.613Z|55c43e959e5030e1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.829|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:51:42.618Z|1e747d9ce6c326f9|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.684|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:52:07.617Z|26702469edd3c7dc|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.589|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:52:07.621Z|4503c7e1e6cc1d9a|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.679|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:52:32.588Z|7d80fead8cf766ac|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.060|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:52:32.594Z|28539dfb346d6ee1|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.673|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:52:57.571Z|6f54989551fa0bcf|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.369|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:52:57.577Z|79cc47b60c11e84e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.750|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:53:22.563Z|25744e58d32055d5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.242|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:53:22.568Z|75df846350ac8064|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.694|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:53:47.547Z|76aeca3356168bbd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.058|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:53:47.551Z|7c8151a21b4a60a8|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.677|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:54:12.534Z|48266b247d3cb40d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.572|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:54:12.540Z|730fa64748836e6d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.711|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:54:44.260Z|73629a511b3532c9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.860|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:54:44.267Z|42a9ddd6b8c290fb|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.877|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:54:44.653Z|6d7e4d2db011bd92|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|33.385|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:55:02.526Z|41d087d060935334|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.291|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:55:02.531Z|7ba7762b9d9d37c0|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.736|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:55:27.519Z|22fb06ed86c4a2c6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.484|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:55:27.524Z|694edc8a863e0d19|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.664|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:55:52.512Z|38c08bf9bcf22846|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.585|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:55:52.517Z|5be7d8233517bee2|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.677|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:56:17.503Z|1ec3d7561e5291cf|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|26.237|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:56:17.512Z|748e47f07721f421|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|2.288|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:56:42.482Z|13489481706a5e03|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.267|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:56:42.488Z|4b4875885adf771d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.779|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:57:07.474Z|301791b86d48c01c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.851|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:57:07.479Z|41a8f63a71810358|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.492|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:57:32.463Z|4c9c0780312d3452|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.093|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:57:32.468Z|4360bc732c131c66|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.742|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:57:57.443Z|4d594712244a16e3|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.950|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:57:57.450Z|15fb39ab85cc8b1e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.107|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:58:22.446Z|271462d108b046db|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|31.685|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:58:22.452Z|6d392eecc4049a8f|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.451|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:58:47.415Z|15e4effbf58b1681|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.488|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:58:47.419Z|2f093a09a42c443d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.709|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:59:12.402Z|709f3243dea0eeff|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.260|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:59:12.407Z|374001c5ab12e1ce|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.766|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:59:37.398Z|1470dfcfce029578|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.890|Chrome|97.0.4692.99|Windows|10
+2022-01-29T16:59:37.403Z|3b3ec502e902e0bd|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.635|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:00:02.377Z|4e048e7c7271357e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.698|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:00:02.382Z|63efe6c09f830951|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.641|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:00:27.365Z|103f6a54a488a0a3|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.372|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:00:27.370Z|1843c3cf151697d3|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.709|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:01:32.346Z|189fad1d32341e39|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|27.258|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:01:32.351Z|4aea297a25948624|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.904|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:02:32.319Z|7ba75c604719125d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|27.866|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:02:32.324Z|2c70bdf7e40b3519|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.740|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:03:32.308Z|5fe5a45d855c8eca|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|24.937|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:03:32.368Z|32477a3c1b89a2b6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.955|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:04:32.273Z|71dbb941831915b4|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|23.468|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:04:32.279Z|79da82ec14b07622|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.384|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:05:32.244Z|4f199400916ce322|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|24.018|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:05:32.249Z|5ca4fafd7f3663a6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.810|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:05:49.492Z|2130c36c1a700cf1|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|48.411|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:05:52.215Z|48018effb0eca3bd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|6.143|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:05:52.219Z|33552e22ef6e75f |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.744|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:06:17.213Z|523fae40890339f1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.171|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:06:17.218Z|4486d987cd7f7d08|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.730|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:06:42.202Z|fbfc62fb08c480e |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.627|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:06:42.207Z|276e7a12f26d17af|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.644|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:07:07.194Z|30c1dfa367d53328|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.840|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:07:07.199Z|6789529f1e1a74c4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.734|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:07:32.173Z|465da11058d50a07|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.606|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:07:32.178Z|7326d2ba0980a327|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.709|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:07:57.163Z|32a4abd62564fd07|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.674|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:07:57.170Z|789e7d0000a73c96|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.937|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:08:22.156Z|c14ab02a97b7e63 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.778|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:08:22.162Z|20359f0fab5b038 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.979|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:08:47.135Z|26457d3ba2ddc923|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.607|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:08:47.140Z|4097a42cebc02ad7|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.354|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:09:12.123Z|788062a432fc3fc5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.961|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:09:12.128Z|ec0723ea3efa88f |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.760|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:09:37.113Z|bfc0fe67891a53  |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.265|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:09:37.117Z|3059895bc4baf2a7|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.660|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:10:02.095Z|3a9a2a33cd6323db|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.275|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:10:02.100Z|4c276078045992f0|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.250|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:10:27.084Z|49db90f68c86d7ad|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.719|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:10:27.089Z|2bc7cce5cce68fc8|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.242|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:10:52.077Z|3777e681f48d0616|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.933|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:10:52.082Z|15ecd53988702257|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.685|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:11:17.073Z|7e4c152b27f876c9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.348|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:11:17.078Z|717e237abbf99970|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.746|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:11:42.084Z|191225a8158c8ee6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.037|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:11:42.088Z|6a80845b949910c0|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.646|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:12:32.068Z|df84b61097b0443 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|28.387|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:12:32.072Z|7abd7c8cefd3589e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.660|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:13:32.030Z|17106a32f0f9625a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.968|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:13:32.037Z|36b12f157ed09b29|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.107|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:14:32.002Z|7021039072e22800|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.238|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:14:32.006Z|54e89ed11f8a91c9|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.691|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:15:31.967Z|7e67de54e631c7d3|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.573|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:15:31.972Z|36f60eb59aa5692 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.764|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:16:31.943Z|393ee72c84ada29e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|23.939|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:16:31.948Z|4e8876aec13da5c3|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.717|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:17:31.910Z|2c103e7bdb8676cf|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.905|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:17:31.915Z|ca7d736e8b00b16 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.808|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:18:31.882Z|5a80f8c9c42394f0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.908|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:18:31.887Z|3a66fb9437d46875|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.697|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:19:31.867Z|4ca25bc6f3f51625|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.510|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:19:31.872Z|62a27f108009548a|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.691|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:20:31.838Z|1be279c482bd2d43|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.524|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:20:31.843Z|45d78cd447f7f87e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.647|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:21:31.806Z|42eff93c23658702|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.931|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:21:31.811Z|490f09dcf8b312c1|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.769|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:22:31.786Z|3bfdc6b7ee1bc714|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|25.763|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:22:31.791Z|2c5a2e1bed416bad|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.905|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:23:31.751Z|26c13b13f5f4722c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.207|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:23:31.756Z|76450a6446869bb0|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.728|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:24:31.719Z|64d95906cd8be557|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.172|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:24:31.724Z|33ed87fd206a7c87|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.687|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:25:31.684Z|5ff3943fceda102f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.380|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:25:31.691Z|491db44cdd325d41|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.931|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:26:31.661Z|8271e951aebd661 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.490|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:26:31.666Z|50cb65c3cd2e3465|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.704|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:27:31.647Z|6cbc084e3e639efc|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.480|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:27:31.654Z|1aac8d256aa5d0e9|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.742|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:28:01.250Z|7cfe06f4f8d8ae29|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.448|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:28:01.254Z|f50e7d7e2c724e4 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.668|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:28:05.312Z|4873f280b934bd02|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|28.830|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:28:21.627Z|7333105c52aaa3f6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.559|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:28:21.631Z|24351f68c6dc4113|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.624|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:28:46.612Z|2e3a717ddb99b8a1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.449|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:28:46.617Z|4388af1e335a1c  |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.658|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:29:11.603Z|74d03bb03584a067|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.347|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:29:11.607Z|433313b268fe6bdb|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.659|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:29:36.587Z|d5670bec2219566 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.327|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:29:36.591Z|6a2dbea873dae8f1|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.632|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:30:01.580Z|7770aa02c793a7fa|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.845|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:30:01.586Z|2e0fe74c0c639ac0|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.788|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:30:26.567Z|1c21d36321dcc6cd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.132|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:30:26.571Z|568f111c2b4bc5f7|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.664|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:30:51.550Z|31c2634aaf99d5ac|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.560|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:30:51.555Z|3b188e3541cd2049|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.661|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:31:16.539Z|673c3ed3b4c01e03|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.413|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:31:16.543Z|5455d9fd00314d62|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.608|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:31:41.532Z|4a5934e34c485bc2|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.844|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:31:41.537Z|12b1699ba075fe99|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.659|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:32:06.513Z|407582849a1f2e78|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.673|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:32:06.518Z|52cccaf628aae96f|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.731|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:32:31.511Z|1fac5331b8f00f51|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.757|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:32:31.516Z|2a0dafb7ee7ae402|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.720|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:32:56.489Z|562bd8beb13f2561|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.592|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:32:56.493Z|3bc9b04c69b76ce5|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.667|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:33:31.479Z|1e0d474f97297a6d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.614|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:33:31.484Z|1679368d4294325d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.455|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:34:14.351Z|7131404fe73e8269|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.749|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:34:14.358Z|42de7a6dec040b44|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.899|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:34:14.983Z|3705b05d832818a |127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|26.882|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:34:36.437Z|7edce8ff37047e58|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.961|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:34:36.442Z|5c7fe5263e621cb4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.722|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:35:01.428Z|595c1243cdcad884|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.497|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:35:01.435Z|230dccd8448443c3|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.682|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:35:26.416Z|79a05187ff6fefa4|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.861|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:35:26.420Z|33af2fb1169a8611|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.656|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:35:51.402Z|26d04cb053785d5e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.135|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:35:51.409Z|12cd0e599104cc27|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.319|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:36:16.413Z|5100eec03e304e57|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.125|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:36:16.418Z|3bd459daa031b4e |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.703|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:36:41.408Z|3472332e7c9b49a6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.113|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:36:41.412Z|7d51401c0e1fa3c6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.668|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:37:06.391Z|547861aa0106d2cd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|10.165|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:37:06.396Z|3803f8f90bf69563|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.764|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:37:31.387Z|4dde0e0a550a1afa|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.335|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:37:31.394Z|cc28301b7885b2b |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.782|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:37:56.377Z|1878098b173c587a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.071|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:37:56.382Z|227231c018cc3395|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.750|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:38:21.356Z|331ae4b2e06c03de|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.040|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:38:21.361Z|26da651dedfd6b9a|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.708|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:38:46.346Z|41d36f3542e0e8f7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.140|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:38:46.350Z|19bf8e54e6884e8e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.744|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:39:11.343Z|143b7781ee939e10|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|24.791|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:39:11.349Z|44fde0b39c516a21|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.338|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:39:36.316Z|68fb6ab3530e6c95|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|10.574|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:39:36.320Z|282145f5d21df87 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.710|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:39:49.706Z|5d9c6372084bf008|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|33.650|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:40:01.308Z|4006ec99a7198e65|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.363|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:40:01.313Z|487b51d5242ba103|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.705|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:40:26.293Z|78dbc049b29c441d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.229|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:40:26.298Z|5ba1b919b8f77012|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.725|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:40:51.282Z|4f03597da9651d67|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.955|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:40:51.287Z|2278a9db2bd7c05f|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.702|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:41:16.268Z|55a3195d3612f1c4|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.149|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:41:16.272Z|5ffad9f56e195a7d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.674|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:41:41.257Z|6a738e707b18d5f0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.699|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:41:41.263Z|1a368343a036b990|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.472|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:41:59.485Z|dd7fed12b2953bd |127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|36.220|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:42:06.238Z|7bb1e13b0cd5db4b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|5.232|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:42:06.242Z|6ae58afb72074ffe|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.832|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:42:31.260Z|7e5f60ef5401261f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.316|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:42:31.265Z|9410e594743fca2 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.908|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:42:56.218Z|200ffd7d0e4ff279|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.905|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:42:56.222Z|7763bc0df5a2b0e9|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.746|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:43:21.213Z|63ccbec2c0808c9c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.443|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:43:21.218Z|671ed7d7c3b876d0|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.654|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:43:46.194Z|7769adf6c9c17196|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.744|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:43:46.200Z|2747facc76572154|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.346|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:44:11.180Z|57db02fa89d6bf2a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.108|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:44:11.185Z|2098971d928d4039|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.973|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:44:36.179Z|7633d66571f27031|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.573|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:44:36.183Z|4e440fb655113926|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.657|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:45:01.191Z|2bc09a35bed09d7d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.091|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:45:01.197Z|1f99e0d68e588ded|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.815|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:45:26.181Z|3b507241e88ab006|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|10.962|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:45:26.186Z|1a6bec5f87e9f9ef|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.271|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:45:51.173Z|3582445e843e2eea|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.058|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:45:51.178Z|52ae4fef6583cdcf|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.680|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:46:16.158Z|38d87379fe02eafd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.275|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:46:16.164Z|4260a0700962bc84|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.688|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:46:41.144Z|6ce5cb0eb186b4f9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|10.590|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:46:41.148Z|75016287affb24d6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.633|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:47:31.130Z|29828e3e022395f5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.275|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:47:31.136Z|7860de294a6e0792|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.862|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:48:31.097Z|728537bb04fd55a8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.374|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:48:31.105Z|48264cd5a979f082|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.186|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:49:31.068Z|439d318bc422ab39|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.799|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:49:31.074Z|25de365c25b08c58|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.911|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:50:31.036Z|29fad5cead7768cc|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|16.329|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:50:31.041Z|7a6d9c88229e4e64|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.711|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:51:31.015Z|141c454c21112388|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|23.048|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:51:31.021Z|1e5874fc9a83b524|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.731|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:52:30.978Z|22a5e67d1a9ec39a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.104|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:52:30.983Z|73924079ad584ede|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.786|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:53:02.255Z|3e1272148794e2d7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|21.001|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:53:02.260Z|3b1653f62f4681a2|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.810|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:53:02.981Z|4da95d0c66222e75|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|35.952|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:53:20.971Z|1e7263db6481a72e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.957|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:53:20.977Z|373a901eb947ca9d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.750|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:53:45.973Z|126811801001afd5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.602|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:53:45.978Z|1e4cb974a8ed7fa5|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.617|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:54:10.964Z|391955f6e50fec1b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.381|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:54:10.969Z|4cf660f8c97058c4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.834|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:54:35.947Z|70bac3769134ae46|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|10.131|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:54:35.951Z|37704888e3bc1e9d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.727|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:55:00.938Z|2634b608cc1543fc|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.795|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:55:00.943Z|1bda244ec7325e41|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.731|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:55:25.927Z|3f4ad9d2c1b12ff2|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.482|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:55:25.931Z|3694c5c83f8870e8|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.656|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:55:50.910Z|1a0837f46f07470b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.879|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:55:50.914Z|4abe1ceec1939c81|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.643|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:56:15.897Z|c76fde2f404ca79 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.637|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:56:15.902Z|4c20b631f7726c2 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.678|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:56:40.888Z|882b0de0b61fdc9 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.148|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:56:40.892Z|5217d5c2d5568f4a|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.667|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:57:05.870Z|6432d25bc5e537f0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|9.585|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:57:05.875Z|3a7f64da0ba90765|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.604|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:57:30.775Z|1318a5312359f184|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.300|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:57:30.780Z|22479a26d885ba48|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.658|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:57:35.296Z|418d8b2cbbd2ef47|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|14.030|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:57:56.477Z|25c371337c4773da|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.626|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:57:56.602Z|2133d2519aba5007|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|1.195|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:58:20.836Z|10a3ffcee24edac7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.393|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:58:20.840Z|27e6c6f278dd87c5|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.674|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:58:45.824Z|37da7f63c92633ff|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.630|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:58:45.829Z|79d2559b155147b5|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.709|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:59:10.811Z|3ca565e7eaa434ce|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.791|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:59:10.816Z|752e70b0f45e1342|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.677|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:59:19.304Z|4b0e450a7009f535|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|30.383|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:59:35.710Z|5a82b3c3c180b38e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|10.088|Chrome|97.0.4692.99|Windows|10
+2022-01-29T17:59:35.715Z|57352daf9766f20d|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.651|Chrome|97.0.4692.99|Windows|10
+2022-01-29T18:00:00.787Z|395bcf0a7592e38f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.095|Chrome|97.0.4692.99|Windows|10
+2022-01-29T18:00:00.791Z|1e81970dc89cbf1f|127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.710|Chrome|97.0.4692.99|Windows|10
+2022-01-29T18:00:25.775Z|1f257c49376bf050|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.658|Chrome|97.0.4692.99|Windows|10
+2022-01-29T18:00:25.778Z|a3581697791cfa1 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|21|-|0.688|Chrome|97.0.4692.99|Windows|10
